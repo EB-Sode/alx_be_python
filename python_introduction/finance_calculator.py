@@ -8,5 +8,5 @@ total_monthly_savings = monthly_savings*12
 
 annual_savings = total_monthly_savings + annual_interest
 
-print("Your monthly savings are: $", monthly_savings)
-print("Projected savings after one year, with interest, is: $", annual_savings) 
+print(f"Your monthly savings are: ${monthly_savings}")
+print("Projected savings after one year, with interest, is: "f"${annual_savings}") 

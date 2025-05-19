@@ -1,4 +1,4 @@
 hours = 2
 seconds = 3600
-
-print(hours, "hours is", hours*seconds, "seconds")
+sec_in_hours = hours * seconds
+print(f"{hours} hours is {sec_in_hours} seconds")
