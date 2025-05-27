@@ -9,16 +9,16 @@ match priority :
         if time_bound == 'yes':
             print(f'Reminder: {reminder}')
         else:
-            print(f'note: {note}')
+            print(f'Note: {note}')
     case 'medium' :
         if time_bound == 'yes':
             print(f'Reminder: {reminder}')
         else:
-            print(f'note: {note}')
+            print(f'Note: {note}')
     case 'low' :
         if time_bound == 'yes':
             print(f'Reminder: {reminder}')
         else:
-            print(f'note: {note}')
+            print(f'Note: {note}')
     case _:
         print("please enter a valid input")
