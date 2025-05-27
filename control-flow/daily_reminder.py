@@ -7,18 +7,18 @@ note = f"{task} is a {priority} priority task. Consider completing it when you h
 match priority :
     case 'high':
         if time_bound == 'yes':
-            print(reminder)
+            print(f'Reminder: {reminder}')
         else:
-            print(note)
+            print(f'note: {note}')
     case 'medium' :
         if time_bound == 'yes':
-            print(reminder)
+            print(f'Reminder: {reminder}')
         else:
-            print(note)
+            print(f'note: {note}')
     case 'low' :
         if time_bound == 'yes':
-            print(reminder)
+            print(f'Reminder: {reminder}')
         else:
-            print(note)
+            print(f'note: {note}')
     case _:
         print("please enter a valid input")
