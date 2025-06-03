@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 def display_current_datetime(): 
     # Get current date and time
     current_date = datetime.now()
-    print("Today's date is:", current_date)
+    print("Today's date is:", current_date.strftime("%Y-%m-%d\%H:%M:%S"))
 
 def calculate_future_date():
     # Add 7 days (1 week) to get a future date
