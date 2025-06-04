@@ -22,4 +22,5 @@ try:
     else:
         print("invalid input")
 except:
+    print("Invalid temperature. Please enter a numeric value.")
     print(ValueError)
