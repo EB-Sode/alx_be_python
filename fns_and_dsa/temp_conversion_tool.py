@@ -21,6 +21,5 @@ try:
         print(f"{temperature}°F is {temp}°C ")
     else:
         print("invalid input")
-except:
+except ValueError:
     print("Invalid temperature. Please enter a numeric value.")
-    print(ValueError)
