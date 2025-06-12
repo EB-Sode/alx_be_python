@@ -7,6 +7,9 @@ class Book:
 
     def __str__(self):
         return f"{self.title} by {self.author}"
+
+    def return_out(self):
+        pass
         
 
 class Library():
