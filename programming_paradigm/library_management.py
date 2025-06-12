@@ -7,10 +7,13 @@ class Book:
 
     def __str__(self):
         return f"{self.title} by {self.author}"
+<<<<<<< HEAD
 
     def return_out(self):
         pass
         
+=======
+>>>>>>> 3823e76 (Adding Library to the repo)
 
 class Library():
     """Library managment system"""
@@ -35,7 +38,6 @@ class Library():
             if book.title == title:
                 if book._Book__is_checked_out:
                     book._Book__is_checked_out = False
-                    # self.__books.append(book)
                     return book
         return None
 
