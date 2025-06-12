@@ -15,7 +15,7 @@ class Book:
 class Library():
     """Library managment system"""
     def __init__(self):
-        self.__books = [] #Private list of books to be added here
+        self._books = [] #Private list of books to be added here
 
     def add_book(self, book):
         """Adding book to the library"""
