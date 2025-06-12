@@ -7,13 +7,6 @@ class Book:
 
     def __str__(self):
         return f"{self.title} by {self.author}"
-<<<<<<< HEAD
-
-    def return_out(self):
-        pass
-        
-=======
->>>>>>> 3823e76 (Adding Library to the repo)
 
 class Library():
     """Library managment system"""
