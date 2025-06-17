@@ -15,7 +15,7 @@
 # Official Representation (__repr__): Returns a string that would recreate the Book instance: f"Book('{self.title}', '{self.author}', {self.year})".
 
 class Book:
-    def __init__(self, title, author, publication_year=int):
+    def __init__(self, title, author, publication_year: int):
         self.title = title
         self.author = author
         self.year = publication_year
